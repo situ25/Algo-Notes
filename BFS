@@ -4,3 +4,13 @@ BFS works on queue hence it always first finds vertices at distance of 1 then at
 Hence the shortest path is the one in which it was discovered.
 
 The given BFS algorithm turns an edge gray  only once,and only once is d[v] changed.
+
+
+
+In BFS,
+If there is a vertex in the queue at a distance of 1 from the source then,
+there will be no element in the queue which is at a distance of 3 or more from the source.
+
+This is so because  when vertices at a distances of 1 are being dequeued vertices of distances of 2 will only be added in the queue.
+
+When all the vertices at distances are dequeued then only vertices of distance 2 will be read from queue and vertices of distance 3 will be added.

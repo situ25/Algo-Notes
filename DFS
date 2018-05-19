@@ -1,4 +1,4 @@
-In depth-first search, edges are explored
+#In depth-first search, edges are explored
 out of the most recently discovered vertex v that still has unexplored edges leaving
 it. When all of v’s edges have been explored, the search “backtracks” to explore
 edges leaving the vertex from which v was discovered. This process continues until

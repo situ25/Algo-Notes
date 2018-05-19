@@ -19,3 +19,9 @@ from multiple sources and depth-first search could be limited to one source, our
 how the results of these searches are typically used. Breadth-first search is usually employed to find
 shortest-path distances (and the associated predecessor subgraph) from a given source. Depth-first
 search is often a subroutine in another algorithm.**
+
+
+*Besides creating a depth-first forest, depth-first search also timestamps each vertex.
+Each vertex v has two timestamps: the first timestamp d[v] records when v
+is first discovered (and grayed), and the second timestamp f [v] records when the
+search finishes examining v’s adjacency list (and blackens v).*

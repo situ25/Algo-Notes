@@ -1,0 +1,6 @@
+BFS works on queue hence it always first finds vertices at distance of 1 then at distance of 2 ,then 3 and so on.
+(Edge weights are considered to be 1,only then)
+
+Hence the shortest path is the one in which it was discovered.
+
+The given BFS algorithm turns an edge gray  only once,and only once is d[v] changed.

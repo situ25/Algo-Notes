@@ -25,3 +25,6 @@ search is often a subroutine in another algorithm.**
 Each vertex v has two timestamps: the first timestamp d[v] records when v
 is first discovered (and grayed), and the second timestamp f [v] records when the
 search finishes examining v’s adjacency list (and blackens v).*
+
+**The vertex from which we start gets blackened last (in all the edges that can be visited from it)
+In BFS the vertex from which we start gets blackened first.**
